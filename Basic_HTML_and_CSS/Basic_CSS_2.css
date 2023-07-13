@@ -1,6 +1,9 @@
 p {
-	color:blue;
+	color: blue;
 	background: red;
 	font-weight: thin;
 	text-align: center;
+}
+h3 {
+	text-shadow: 2px 2px 8px #FF0000;
 }
