@@ -4,7 +4,7 @@
 		<style>
 			h1 {text-align: center;}
 			nav {text-align: center;}
-			h2 {text-align; center;}
+			h2 {text-align: center;}
 			p {text-align: center;}
 			h3 {text-align: center;}
 			label {text-align: center;}
@@ -61,6 +61,16 @@
 		<h1>Gravity Leap</h1>
 		<p>We specialize in bucket lists! Cross this one off of yours today!</p>
 		
+		
+		<button onclick="myFunction()">Toggle dark mode</button>
+
+		<script>
+		function myFunction() {
+			var element = document.body;
+			element.classList.toggle("dark-mode");
+		}
+		</script>
+		
 		<!--Gallery-->
 		<selection>
 			<div id="gallery">
@@ -70,30 +80,30 @@
 					<!--photo container-->
 					<div class="row">
 						<div class="column">
-							<img src=".images/thumb2/thumbnail2_1.jpg" alt="two bros" style="width:100%">
+							<img src="./images/thumb2/thumbnail2_1.jpg" alt="two bros" style="width:100%">
 						</div>
 						<div class="column">
-							<img src=".images/thumb2/thumbnail2_2.jpg" alt="Kumbaya" style="width:100%">
+							<img src="./images/thumb2/thumbnail2_2.jpg" alt="Kumbaya" style="width:100%">
 						</div>
 						<div class="column">
-							<img src=".images/thumb2/thumbnail2_3.jpg" alt="look I'm a bird" style="width:100%">
+							<img src="./images/thumb2/thumbnail2_3.jpg" alt="look I'm a bird" style="width:100%">
 						</div>
 						<div class="column">
-							<img src=".images/thumb2/thumbnail2_4.jpg" alt="this is totally good for the environment" style="width:100%">
+							<img src="./images/thumb2/thumbnail2_4.jpg" alt="this is totally good for the environment" style="width:100%">
 						</div>
 						<div class="column">
-							<img src=".images/thumb2/thumbnail2_5.jpg" alt="balloon?" style="width:100%">
+							<img src="./images/thumb2/thumbnail2_5.jpg" alt="balloon?" style="width:100%">
 						</div>
 						<div class="column">
-							<img src=".images/thumb2/thumbnail2_6.jpg" alt="plane" style="width:100%">
+							<img src="./images/thumb2/thumbnail2_6.jpg" alt="plane" style="width:100%">
 						</div>
 					</div>
 					<!--end photo container-->
 					
 					<!--video-->
-					<div class="column">
+		
 						<iframe src="<iframe width="1131" height="636" src="https://www.youtube.com/embed/5L4MfQEzePg" title="BEST Skydiving Videos Compilation"frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-					</div>
+					
 				</div>
 			</div>
 		</selection>
@@ -119,16 +129,25 @@
 								<input class="rsvp" type="text" value="Phone Number">
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
+								</div>
+								<div>
+									<input type="Submit" align="center">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</selection>
+		<!--end contact-->
+		
+		<!--feet-->
+		<div>
+			<p>www.gravityleap.com &nbsp;|&nbsp; 2023</p>
+		</div>
+		<!--end feet-->
 					
 						
-					
-				
-					
-		
-		
-		
-
-
-</body>
+	</body>
 </html>
 
