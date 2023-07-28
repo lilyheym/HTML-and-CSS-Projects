@@ -1,3 +1,16 @@
+/*Fonts*/
+
+html {
+    font-family: serif;
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+/*no more fonts for you*/
+
+/*gotta center everything*/
+
 h1 {text-align: center;}
 			
 nav {text-align: center;}
@@ -9,6 +22,8 @@ p {text-align: center;}
 h3 {text-align: center;}
 			
 label {text-align: center;}
+
+/*end center*/
 			
 iframe {
 	display: block;
