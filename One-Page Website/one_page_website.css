@@ -24,7 +24,7 @@ h3 {text-align: center;}
 label {text-align: center;}
 
 /*end center*/
-			
+ /*media*/			
 img {
     width: 290;
     height: 220;
@@ -55,6 +55,8 @@ iframe {
 	padding: 5px;
 			}
 
+  /*end media*/
+
 /* Clearfix (clear floats) */
 .row::after {
 	content: "";
@@ -69,6 +71,7 @@ body {
 	font-size: 25px;
 }
 
+/*darkmode stuff*/
 .dark-mode {
 	background-color: black;
 	color: white;
@@ -81,7 +84,7 @@ button {
 }
 
 
-
+/*contact form*/
 
 form { max-width:420px; margin:50px auto; }
 
