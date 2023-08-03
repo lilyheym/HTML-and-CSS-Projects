@@ -1,148 +1,163 @@
 
-            html {
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            
-            .navbar {
-                overflow: hidden;
-                background-color: pink;
-                position: fixed;
-                top: 0%;
-                width: 100%;
-            }
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-            .navbar a {
-                float: left;
-                display: block;
-                color: papayawhip;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-                font-size: 17px;
-            }
+.navbar {
+    overflow: hidden;
+    background-color: pink;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
 
-            .navbar a:hover {
-                background-color: antiquewhite;
-                color: black;
-            }
-            .center {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                width: 50%;
-            }
+.navbar a {
+    float: left;
+    display: block;
+    color: papayawhip;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
 
-        
+.navbar a:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
-            .image {
-                display: block;
-                width: 100%;
-                height: auto;
-                border: 10 px solid;
-                border-color: pink;
-                border-radius: 50%;
-                padding: 15px;
-                margin-top: 100px;
-            }
+img {
+    border: 10px solid;
+    padding: 15px;
+    border-color: pink;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
+}
 
-            .overlay {
-                position: absolute;
-                top: 0;
-                bottom: 0%;
-                left: 0;
-                right: 0;
-                height: 100%;
-                width: 100%;
-                opacity: 0%;
-                transition: .5 ease;
-                background-color: pink;
-            }
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
 
-            .container {
-                position: relative;
-                width: 50%;
-            }
 
-            .container:hover .overlay {
-                opacity: 1;
-            }
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+    font-size: 50px;
+}
 
-            .text {
-                color: white;
-                font-size: 50px;
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                -webkit-transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-                text-align: center;
-            }
+.picture {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
 
-            #description {
-                color: black;
-                margin-top: 30px;
-                font-size: 25px;
-            }
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
 
-            #description:hover {
-                background-color: pink;
-                color: white;
+.container:hover .picture {
+    opacity: 0.3;
+} 
 
-            }
+.container:hover .middle {
+    opacity: 1;
+}
 
-            * {
-                box-sizing: border-box;
-            }
+.text {
+    background-color: pink;
+    color: white;
+    font-size: 30px;
+    padding: 16px 32px;
+}
 
-            .column {
-                float: left;
-                width: 50%;
-                padding: 10px;
-                height: 300px;
-                margin-top: 50px;
-                border: 2px solid palevioletred;
-            }
 
-            .row:after {
-                content: "";
-                display: table;
-                clear: both;
-            }
-            #actors {
-                border-collapse: collapse;
-                width: 100%;
-                margin-top: 2%;
-            }
 
-            #actors td, actors th {
-                border: 2px solid palevioletred;
-                padding: 8px;
-            }
+#desc {
+    color: black;
+    margin-top: 30px;
+    font-size: 25px;
+}
 
-            #actors tr {
-                background-color: peachpuff;
-                text-align: center;
-            }
+#desc:hover {
+    background-color: pink;
+    color: white;
+}
 
-            #actors tr:hover {
-                background-color: pink;
-            }
-            
-            #actors th {
-                padding-top: 12px;
-                padding-bottom: 12px;
-                text-align: center;
-                background-color: plum;
-                color: white;
-                border: 2px solid palevioletred;
-            }
+* {
+    box-sizing: border-box;
+}
 
-            footer {
-                text-align: center;
-                padding: 3px;
-                background-color: pink;
-                color: white;
-                margin-top: 2%;
-                font-weight: bold;
-            }
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    margin-top: 50px;
+    border: 2px solid palevioletred;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#actors {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2%;
+}
+
+#actors td, actors th {
+    border: 2px solid palevioletred;
+    padding: 8px;
+}
+
+#actors tr {
+    background-color: peachpuff;
+    text-align: center;
+}
+
+#actors tr:hover {
+    background-color: pink;
+}
+
+#actors th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: plum;
+    color: white;
+    border: 2px solid palevioletred;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: pink;
+    color: white;
+    margin-top: 2%;
+    font-weight: bold;
+}    
