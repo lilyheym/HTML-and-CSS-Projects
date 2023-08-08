@@ -38,9 +38,13 @@ p {
     font-size: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    color: white;
 }
 
-/*no paragraph hover effect for me, hurts my eyes */
+p:hover {
+    transition: transform 1s;
+    transform: scale(1.01);
+}
 
 .center {
     text-align: center;
@@ -248,9 +252,10 @@ footer {
  }
 
 
-input[type=submit] {
-    box-shadow: 0 0 5px rgb(1, 1, 41);
+input[type=text]:hover {
+    box-shadow: 0 0 5px #00004d inset; /* This creates a blue shadow in the text box when hovered over by the user */
 }
+
 
 input[type=submit] {
     background-color: black;
@@ -279,4 +284,3 @@ form {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
