@@ -40,6 +40,7 @@ img {
     margin-top: 100px;
     margin-bottom: 50px;
     
+    
 }
 
 .container {
@@ -47,6 +48,7 @@ img {
     text-align: center;
     color: white;
 }
+    
 
 
 .centered {
@@ -66,6 +68,8 @@ img {
     transition: .5s ease;
     backface-visibility: hidden;
 }
+
+
 
 .middle {
     transition: .5s ease;
@@ -92,8 +96,6 @@ img {
     font-size: 30px;
     padding: 16px 32px;
 }
-
-
 
 #desc {
     color: black;
