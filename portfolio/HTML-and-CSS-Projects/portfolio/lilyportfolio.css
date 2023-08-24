@@ -253,7 +253,7 @@ footer {
 
 
 input[type=text]:hover {
-    box-shadow: 0 0 5px #00004d inset; /* This creates a blue shadow in the text box when hovered over by the user */
+    box-shadow: 0 0 5px #00004d inset; 
 }
 
 
