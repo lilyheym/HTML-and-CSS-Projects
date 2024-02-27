@@ -8,6 +8,8 @@ This is a display of sample websites I made using HTML and CSS
 
 -Movie Theatre Site
 
+-Barbie Site
+
 ### Battlestar Galactica Site
 
 This page is an example home page for a Battlestar Galacticac Museum. It's styled using CSS and contains a navbar, image containers, and a form.
